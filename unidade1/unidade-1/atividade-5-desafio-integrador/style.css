@@ -1,0 +1,26 @@
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; margin: 0; background: #f6f7fb; color: #111; }
+header { background: #111827; color: #fff; padding: 16px; }
+main { max-width: 1000px; margin: 0 auto; padding: 16px; }
+.card { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px; margin-bottom: 14px; }
+label { display: block; margin-bottom: 6px; font-weight: 700; }
+input[type="text"], input[type="email"], input[type="password"], select {
+  width: 100%; padding: 10px 12px; border: 1px solid #d1d5db; border-radius: 10px;
+}
+.row { display: grid; gap: 12px; grid-template-columns: 1fr; }
+@media (min-width: 700px) { .row { grid-template-columns: 1fr 1fr; } }
+.btn { display: inline-block; border: 0; cursor: pointer; background: #2563eb; color: #fff; padding: 10px 12px; border-radius: 10px; font-weight: 700; text-decoration: none; }
+.btn:hover { background: #1d4ed8; }
+.btn-secondary { background: #111827; }
+.btn-secondary:hover { background: #0b1220; }
+.btn-danger { background: #b91c1c; }
+.btn-danger:hover { background: #991b1b; }
+.muted { color: #374151; }
+.error { background: #fef2f2; border: 1px solid #fecaca; color: #991b1b; padding: 12px; border-radius: 10px; }
+.ok { background: #ecfdf5; border: 1px solid #a7f3d0; color: #065f46; padding: 12px; border-radius: 10px; }
+.table { width: 100%; border-collapse: collapse; }
+.table th, .table td { border-bottom: 1px solid #e5e7eb; padding: 10px 8px; text-align: left; vertical-align: top; }
+a { color: #2563eb; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
